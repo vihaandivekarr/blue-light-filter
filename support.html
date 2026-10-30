@@ -22,13 +22,25 @@
     <li>Install Blue Light Filter from the Chrome Web Store.</li>
     <li>Click the puzzle-piece icon in Chrome's toolbar and pin <strong>Blue Light Filter</strong>.</li>
     <li>Click the orange moon icon to open the controls.</li>
-    <li>Refresh any tabs that were already open.</li>
+    <li>That's it. The filter starts on every open tab right away.</li>
   </ol>
 
   <h2>Common questions</h2>
 
+  <h3 id="trust">Chrome says it's "not trusted by Enhanced Safe Browsing."</h3>
+  <p>Chrome shows this for every extension from a new developer, if you have Enhanced Safe Browsing turned on. It isn't about
+    anything Blue Light Filter does. Google trusts developers automatically once they've followed the Chrome Web Store
+    rules for a few months. To install anyway, click <strong>Continue to install</strong>. Blue Light Filter collects no
+    data, makes no internet requests, and never sends you to other websites. See the <a href="privacy.html">privacy policy</a>.</p>
+
   <h3>The filter isn't showing on a page.</h3>
-  <p>Refresh the page. Tabs that were open before you installed the extension need a refresh. Also check that <strong>Filter on</strong> is checked, and if <strong>Only on a schedule</strong> is checked, that the current time is inside your schedule.</p>
+  <p>Click the orange moon icon. The message at the top of the popup tells you why: the filter might be switched off,
+    paused, turned off for that site, or waiting for your schedule.</p>
+
+  <h3>How do I use different settings on different sites?</h3>
+  <p>Go to the site, open the popup, and under <strong>On [site name]</strong> pick <strong>Use special settings for this
+    site</strong> (then move the sliders) or <strong>Never filter this site</strong>. You can see and edit all your site
+    rules on the <strong>All settings</strong> page.</p>
 
   <h3>It doesn't work on the New Tab page or Chrome settings.</h3>
   <p>Chrome doesn't let any extension run on its own pages (like the New Tab page, <code>chrome://</code> pages, and the Chrome Web Store). This is a Chrome safety rule, not a bug.</p>
@@ -37,13 +49,16 @@
   <p>No. Chrome extensions can only change web pages. For your whole screen, use the setting built into your computer: <strong>Night Shift</strong> on Mac (System Settings → Displays) or <strong>Night light</strong> on Windows (Settings → System → Display).</p>
 
   <h3>How does the schedule work?</h3>
-  <p>Check <strong>Only on a schedule</strong> and pick a start and end time. The filter turns on and off by itself, and it works overnight (for example 8:00 PM to 7:00 AM). It checks the time once a minute.</p>
+  <p>Open <strong>All settings</strong>, choose <strong>Only between these times</strong>, and pick a start and end time. It works overnight (for example 8:00 PM to 7:00 AM). You can also have it fade in and out gradually.</p>
 
   <h3>The colors look too strong or too weak.</h3>
-  <p>Use the <strong>Strength</strong> slider. Around 30–50% works well for most people. <strong>Red</strong> blocks the most blue light, and <strong>Yellow</strong> is the most gentle.</p>
+  <p>Try the presets first. Then adjust <strong>Filter strength</strong> and <strong>Warmth</strong>: further right on Warmth blocks more blue light. Use <strong>Dim screen</strong> if a page is too bright.</p>
 
   <h3>Does it work on videos?</h3>
-  <p>Yes, on videos inside a page. Videos in full-screen mode may not be tinted.</p>
+  <p>Yes, including fullscreen videos.</p>
+
+  <h3>Are there keyboard shortcuts?</h3>
+  <p><strong>Alt+Shift+B</strong> turns the filter on or off, and <strong>Alt+Shift+Up/Down</strong> changes the strength. You can change them at <code>chrome://extensions/shortcuts</code>.</p>
 
   <h3>Does it collect my data?</h3>
   <p>No. See the <a href="privacy.html">privacy policy</a>.</p>
